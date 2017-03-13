@@ -1,0 +1,3 @@
+# log
+
+Some random thoughts.
