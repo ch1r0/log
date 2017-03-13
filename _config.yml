@@ -1,1 +1,4 @@
 theme: jekyll-theme-minimal
+
+# Exclude certain files
+exclude: [CNAME, README.md]
