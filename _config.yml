@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
 
 # Exclude certain files
-exclude: [CNAME, README.md]
+exclude: [CNAME, README.md, Gemfile, Gemfile.lock, Rakefiles]

@@ -26,9 +26,9 @@ term.exec("git push")
 
 # Exclude
 vimCfg = term.exec("vim _config.yml")
-vimCfg.i("exclude:  [README.md, CNAME]")
+vimCfg.i("exclude:  [README.md, CNAME, Gemfile, Gemfile.lock, Rackfiles]")
 vimCfg:x()
-term.exec("git commit -a -m \"Exclude README.md and CNAME\"")
+term.exec("git commit -a -m \"Exclude README.md, CNAME, Gemfiles and etc\"")
 term.exec("git push")
 
 term.exec("cd ..")
