@@ -1,8 +1,8 @@
 ---
-title: GitHub Pages
+title: Set Up GitHub Pages
 ---
 
-# GitHub::Pages::CreateSite()
+### GitHub::Pages::CreateSite()
 
 ```ruby
 # Create a repo for github pages
@@ -34,7 +34,7 @@ term.exec("git push")
 term.exec("cd ..")
 ```
 
-# Jekyll::LocalSetup()
+### Jekyll::LocalSetup()
 ```ruby
 # Generate default Gemfile
 term = LocalHost.Term.new()
